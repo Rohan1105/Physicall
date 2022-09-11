@@ -1,0 +1,623 @@
+*{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Home-page of exercises and diets*?
+/**Childrens**/
+
+#childrens{
+    margin-top: -40px;
+    margin-left: 60px;
+    margin-bottom: 24px;
+    padding: 45px;
+    height: 220px;
+}
+#childrens h2{
+    position: absolute;
+    left: 250px;
+    top: 60px;
+}
+#childrens img{
+    height: 300px;
+    width: 565px;
+    box-shadow: 10px 12px;
+}
+.childhover{
+    position: absolute;
+    left: 112px;
+    top: 71px;
+    background-color: lightblue;
+    height: 313px;
+    width: 578px;
+    opacity: 0;
+    text-align: center;
+}
+.childhover:hover{
+    opacity: 1;
+    transition: 0.5s ease; 
+}
+.childhover p{
+    font-size: 25px;
+    margin: 75px;
+    text-align: center;
+}
+.ghost {
+    height: 100px;
+    top: 125px;
+    left: 200px;
+    position: absolute;
+    animation: float 3s ease-out infinite;
+  }
+  
+  @keyframes float {
+    50% {
+       transform: translate(0, 20px);
+    }
+  }
+  .shadowFrame {
+    position: absolute;
+    left: 60px;
+    width: 130px;
+  }
+  .shadow {
+    position: absolute;
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+  }
+  
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
+
+/**Teenagers**/
+
+#teenagers{
+    margin-top: -40px;
+    margin-left: 30px;
+    padding: 45px;
+    height: 220px;
+}
+#teenagers h2{
+    position: absolute;
+    left: 990px;
+    top: 60px;
+}
+#teenagers img{
+    height: 300px;
+    width: 565px;
+    box-shadow: 10px 12px;
+}
+.teenhover{
+    position: absolute;
+    left: 840px;
+    top: 71px;
+    background-color: lightblue;
+    height: 313px;
+    width: 578px;
+    opacity: 0;
+    text-align: center;
+}
+.teenhover:hover{
+    opacity: 1;
+    transition: 0.5s ease; 
+}
+.teenhover p{
+    font-size: 25px;
+    margin: 75px;
+    text-align: center;
+}
+
+/**Adults**/
+
+#adults{
+    margin-left: 60px;
+    margin-bottom: 24px;
+    padding: 45px;
+    height: 220px;
+}
+#adults h2{
+    position: absolute;
+    left: 250px;
+    top: 390px;
+}
+#adults img{
+    height: 320px;
+    width: 565px;
+    box-shadow: 10px 12px;
+}
+.adultshover{
+    position: absolute;
+    left: 112px;
+    top: 404px;
+    background-color: lightblue;
+    height: 334px;
+    width: 578px;
+    opacity: 0;
+    text-align: center;
+}
+.adultshover:hover{
+    opacity: 1;
+    transition: 0.5s ease; 
+}
+.adultshover p{
+    font-size: 25px;
+    margin: 75px;
+    text-align: center;
+}
+
+/**OlderAdults**/
+
+#olderadults{
+    margin-left: 30px;
+    padding: 45px;
+    height: 220px;
+}
+#olderadults h2{
+    position: absolute;
+    left: 950px;
+    top: 390px;
+}
+#olderadults img{
+    height: 320px;
+    width: 565px;
+    box-shadow: 10px 12px;
+}
+.oldaldhover{
+    position: absolute;
+    left: 840px;
+    top: 404px;
+    background-color: lightblue;
+    height: 334px;
+    width: 578px;
+    opacity: 0;
+    text-align: center;
+}
+.oldaldhover:hover{
+    opacity: 1;
+    transition: 0.5s ease; 
+}
+.oldaldhover p{
+    font-size: 25px;
+    margin: 75px;
+    text-align: center;
+}
+
+/*misc*/
+
+ h2{
+    text-align: center;
+}
+
+/*Media query of exerxcise landing page*/
+@media (max-width:550px){
+
+#main-header{
+    font-size: 35px;
+    position: absolute;
+    left: 140px;
+    width: max-content;
+}    
+#childrens img{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+#childrens h2{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-size: 35px;
+    width: max-content;
+}
+.childhover:hover{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+#teenagers img{
+    position: absolute;
+    top: 600px;
+    left: 150px;
+}
+#teenagers h2{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    font-size: 35px;
+    width: max-content;
+}
+.teenhover:hover{
+    position: absolute;
+    top: 600px;
+    left: 150px;
+}
+#adults img{
+    position: absolute;
+    top: 1000px;
+    left: 150px;
+}
+#adults h2{
+    position: absolute;
+    top: 900px;
+    left: 150px;
+    font-size: 35px;
+    width: max-content;
+}
+.adultshover:hover{
+    position: absolute;
+    top: 1000px;
+    left: 150px;
+}
+#olderadults img{
+    position: absolute;
+    top: 1400px;
+    left: 150px;
+}
+#olderadults h2{
+    position: absolute;
+    top: 1300px;
+    left: 150px;
+    font-size: 35px;
+    width: max-content;
+}
+.oldaldhover:hover{
+    position: absolute;
+    top: 1400px;
+    left: 150px;
+}
+}
+/* child-ex */
+
+.exercises-child{
+    color: black;
+    display: grid;
+    grid-template-areas: 'write write write pic pic'
+                         'pic1 pic1 write1 write1 write1';
+}
+.exercises-child h4{
+    position: absolute;
+    font-size: 20px;
+    left: 65px;
+    color: black;
+}
+.Child-ex{
+    font-size: 20px;
+    grid-area: write;
+    height: 400px;
+    padding-right: 150px;
+    padding: 25px;
+    margin: 30px;
+    position: absolute;
+}
+ul{
+    margin: 70px;
+    font-size: 20px;
+}
+li{
+    margin: 5px;
+    padding: 5px;
+}
+#child-ex{
+    height: 300px;
+    width: 300px;
+    grid-area: pic;
+    position: absolute;
+    top: 86px;
+    right: 76px;
+    box-shadow: 8px 10px black;
+}
+#childhov-ex{
+    height: 311px;
+    width: 311px;
+    grid-area: pic;
+    margin: 30px;
+    padding: 30px;
+    position: absolute;
+    top: 26px;
+    right: 8px;
+    opacity: 0;
+}
+@keyframes disp {
+    0%{height: 300px;width: 300px}
+    100%{height: 325px;width: 325px;}
+}
+#childhov-ex:hover{
+    opacity: 1;
+    transition: 0.3s ease;
+    animation: disp 2.5s;
+}
+#name{
+    position: absolute;
+    top: 385px;
+    right: 88px;
+    font-size: 30px;
+}
+#diet{
+    position: absolute;
+    top: 479px;
+    left: 462px;
+    font-size: 30px;
+    color: black;
+}
+#child-diet{
+    position: absolute;
+    top: 517px;
+    left: 74px;
+    height: 300px;
+    width: 300px;
+    grid-area: pic1;
+    margin-bottom: 10px;
+    box-shadow: 8px 10px black;
+}
+.Child-diet{
+    font-size: 20px;
+    grid-area: write1;
+    position: absolute;
+    text-align: left;
+    top: 510px;
+    left: 400px;
+    padding: 30px;
+    margin: 30px
+}
+
+@media (max-width:600px) {
+    #child-header{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .Child-ex{
+        position: absolute;
+        top: 100px;
+    }
+    #child-ex{
+        position: absolute;
+        top: 680px;
+        left: 60px;
+    }
+    #childhov-ex{
+        position: absolute;
+        top: 680px;
+        left: 60px;
+    }
+    #name{
+        position: absolute;
+        top: 1000px;
+        left: 80px;
+        font-size: 26px;
+    }
+    #child-diet{
+        position: absolute;
+        top: 1100px;
+        left: 57px;
+    }
+    #diet{
+        position: absolute;
+        top: 1400px;
+        left: 60px;
+    }
+    .Child-diet{
+        position: absolute;
+        top: 1450px;
+        left: 20px;
+    }
+}
+
+@media (min-width:601px) and (max-width:992px) {
+    #child-header{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .Child-ex{
+        position: absolute;
+        top: 100px;
+    }
+    #child-ex{
+        position: absolute;
+        top: 480px;
+        left: 90px;
+    }
+    #childhov-ex{
+        position: absolute;
+        top: 480px;
+        left: 90px;
+    }
+    #name{
+        position: absolute;
+        top: 800px;
+        left: 100px;
+        font-size: 26px;
+    }
+    #child-diet{
+        position: absolute;
+        top: 900px;
+        left: 75px;
+    }
+    #diet{
+        position: absolute;
+        top: 1200px;
+        left: 80px;
+    }
+    .Child-diet{
+        position: absolute;
+        top: 1250px;
+        left: 20px;
+    }
+}
+/* adults-ex */
+#adult-head{
+    text-align: left;
+    position: absolute;
+    margin: 8px;
+    left: 50px;
+    top: 10px;
+    font-size: 30px;
+}
+.header-adult{
+    height: 88px;
+    width: 100%;
+    background-color: rgb(228, 225, 225);
+}
+#adult-img{
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.content{
+    position: absolute;
+    top: 650px;
+}
+.content p{
+    text-align: left;
+    margin: -15px;
+    font-size: 20px;
+    position: absolute;
+    left: 113px;
+}
+ul{
+    list-style: square;
+}
+#adult-header{
+    top: 750px;
+}
+.next-content{
+    position: absolute;
+    top: 850px;
+    left: 100px;
+    font-size: 20px;
+}
+.adult-diet{
+    position: absolute;
+    top: 1200px;
+}
+#adult-Header{
+    top: 1000px;
+    text-align: center;
+    font-size: 30px;
+}
+.adult-image{
+    display: flex;
+    position: absolute;
+    top: 1650px;
+    left: 88px;
+    padding: 20px;
+}
+#adult-pic{
+    height:400px;
+    width:400px;
+    padding:20px;
+}
+#adult-pic1{
+    height:400px;
+    width:400px;
+    padding:20px;
+}
+#adult-pic2{
+    height:400px;
+    width:400px;
+    padding:20px;
+}
+
+@media (max-width:600px) {
+    #adult-head{
+        position: absolute;
+        left: 100px;
+        width: max-content;
+        font-size: 35px;
+    }
+    #adult-img{
+        height: 400px;
+        width: 800px;
+    }
+    .content p{
+        position: absolute;
+        font-size: 35px;
+        top: -70px;
+    }
+    .content ul{
+       font-size: 30px;
+       width: max-content;
+    }
+    #adult-header{
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        width: max-content;
+    }
+    .next-content p{
+        position: absolute;
+        top: 100px;
+        font-size: 35px;
+        left: 15px;
+        width: 800px;
+    }
+    .next-content ul{
+        position: absolute;
+        top: 350px;
+        font-size: 35px;
+        width: max-content;
+        left: -80px;
+    }
+    #adult-Header{
+        position: absolute;
+        top: 350px;
+        left: 100px;
+        width: max-content;
+        font-size: 40px;
+    }
+    .adult-diet ul{
+        position: absolute;
+        top: 370px;
+        font-size: 35px;
+        width: 1000px;
+    }
+    .adult-image{
+        position: absolute;
+        margin: 20px;
+        padding: 20px;
+    }
+    #adult-pic{
+        position: absolute;
+        top: 900px;
+        height: 300px;
+        width: 300px;
+        left: 10px;
+    }
+    #adult-pic1{
+        position: absolute;
+        top: 900px;
+        left: 350px;
+        height: 300px;
+        width: 300px;
+    }
+    #adult-pic2{
+        position: absolute;
+        top: 900px;
+        left: 690px;
+        height: 300px;
+        width: 300px;
+    }
+}
+

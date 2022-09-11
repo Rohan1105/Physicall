@@ -1,0 +1,83 @@
+/*olderadults-ex*/
+.flex{
+    display: flex;
+}
+
+.heading h1{
+    font-size: 2.5rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.heading p{
+    font-size: 1.4rem;
+    margin: 10px;
+    padding: 10px;
+}
+.main{
+    margin: 3rem 0rem
+}
+
+.main .left{
+    margin: 0rem 2rem;
+    /* padding: 2rem; */
+}
+
+.main .left h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.main .left p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.main .left h4{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 0.2rem 0rem;
+    margin: 0.4rem 0rem;
+}
+
+.main .left ul li{
+    font-size: 1.1rem;
+    padding-bottom: 0.2rem;
+}
+
+.main .right img{
+    width: 476px;
+    height: 300px;
+    margin: 2rem 2rem;
+    margin-left: 5rem;
+    margin-right: 7rem;
+}
+@media (max-width: 425px){
+    .flex{
+        flex-direction: column;
+    }
+
+    .heading p{
+        width: 100%;
+        /* font-size: 1rem; */
+        /* display: inline; */
+    }
+    .heading h1{
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    /* .main img.right{
+        width:10px;
+    } */
+    .main{
+        width:100%;
+    }
+}
+
+@media(max-width: 992px){
+    .main .right{
+        width: 100px;
+    }
+}

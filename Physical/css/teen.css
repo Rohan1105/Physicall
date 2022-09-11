@@ -1,0 +1,37 @@
+ body{
+  /* background-image: url(https://img.freepik.com/free-photo/young-beautiful-woman-bright-sportwear-isolated-gradient-pink-blue-background-neon-light_155003-24205.jpg?w=2000);
+  background-repeat: no-repeat; */
+}
+.cardio-para{
+  font: "Montserrat-bold";
+  padding-bottom: 50px;
+}
+.gif{
+  width:10%;
+}
+.para-space{
+  padding-top: 45px;
+}
+.space{
+  padding-bottom: 60px;
+}
+.img-pad{
+  padding-top: 30px;
+}
+.head-pad{
+  margin: 50px 20px 20px 30px;
+}
+.odd{
+  margin-left: 80px;
+}
+.rule{
+  border-style:none none dotted none;
+  border-width: 10px;
+  width:5%;
+  color: #40514E;
+  margin: 30px auto;
+  margin-bottom: 80px;
+}
+.diet-para{
+  padding-bottom: 20px;
+}
